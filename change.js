@@ -1,3 +1,4 @@
-let change = 'Xampp name is Mamun';
-change = change.replace('X', 'Y');
-console.log(change);
+let change = 'Xampp name xs Mamun';
+// change = change.replace('X', 'Y');
+let count = change.replace('X'.lastIndexOf, 'Y');
+console.log(count);
